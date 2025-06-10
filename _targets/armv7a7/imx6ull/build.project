@@ -30,6 +30,7 @@ export PORTS_JANSSON=y
 export PORTS_CURL=y
 export PORTS_COREMARK=n
 export PORTS_COREMARK_PRO=n
+export PORTS_TFLM=y
 
 #
 # Platform dependent parameters
