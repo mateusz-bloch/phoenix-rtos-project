@@ -80,7 +80,7 @@ jobs:
       - name: Add GCC problem matcher
         run: echo "::add-matcher::./.buildroot/phoenix-rtos-project/.github/problem-matchers/gcc.json"
 
-      # step 3: use our custom action to build the project
+      # step 3: usdupae our custom action to build the project
       - name: Build
         id: build
         uses: ./.buildroot/phoenix-rtos-project/.github/actions/phoenix-build    # BUILD_DIRECTORY value, but we can't use templates here
